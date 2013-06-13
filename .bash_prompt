@@ -34,7 +34,7 @@ else
 	BOLD=""
 	RESET="\033[m"
 fi
-
+WHITE="\033[1;37m"
 export MAGENTA
 export ORANGE
 export GREEN
