@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+curl -L https://get.rvm.io | bash -s head --ruby=1.9.3-p194 --auto-dotfiles
+source ~/.bash_profile
+rvm autolibs enable
