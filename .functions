@@ -252,7 +252,7 @@ function gi() {
 	eval npm install --save-dev grunt-{"$*"}
 }
 
-function ssh-tab() {
+function ssh() {
 	echo -ne "\033]0;$@\007"
-	ssh $@
+	command ssh $@
 }
